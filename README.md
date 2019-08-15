@@ -8,8 +8,11 @@ Sydney Informatics Hub at the University of Sydney https://informatics.sydney.ed
 ```sudo docker build . -t gatk```
 
 #Run with something like:
+
 ```sudo docker run --rm -it -v `pwd`:/workspace gatk```
+
 Or on Windows
+
 ```docker run --rm -it -v C:\WORK\ShortProjects\GATK:/workspace gatk ```
 
 
