@@ -1,4 +1,4 @@
-# gatk_tools
+# fastq2bam
 GATK and other bioinformatics tools packaged together.
 
 If you make use of this image, please acknowledge 
