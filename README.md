@@ -8,6 +8,10 @@ Sydney Informatics Hub at the University of Sydney https://informatics.sydney.ed
 
 ```sudo docker build . -t gatk```
 
+or on ***singularity***:
+
+```singularity pull docker://nbutter/gatk_tools```
+
 # Run with something like:
 
 ```sudo docker run --rm -it -v `pwd`:/workspace gatk```
