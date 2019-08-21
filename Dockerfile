@@ -18,6 +18,10 @@ LABEL maintainer="nathaniel.butterworth@sydney.edu.au"
 #Create a workspace
 WORKDIR /opt
 
+#Make workspaces that are used for data storage at runtime
+RUN mkdir /project
+RUN mkdir /scratch
+
 #Now install everything else we need
 
 #sambamba
